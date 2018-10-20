@@ -1,0 +1,106 @@
+body {
+
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png");
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+}
+
+.title {
+
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    font-size: 15vh;
+    animation: color-change 13s infinite;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+@keyframes color-change {
+    0% { color: rgba(255, 255, 255, 0.767); }
+    12.5% { color: rgba(233, 13, 13, 0.801); }
+    25% { color: rgb(245, 135, 9) }
+    37.5% { color: rgba(245, 241, 9, 0.658) }
+    50% { color: rgba(0, 0, 255, 0.781); }
+    62.5% { color: rgba(245, 9, 225, 0.726) }
+    75% { color: rgba(13, 236, 5, 0.753); }
+    87.5% { color: rgba(194, 16, 238, 0.801); }
+    100% { color: rgba(255, 255, 255, 0.767); }
+}
+
+.margin-bot {
+
+    margin-bottom: 6vh;
+}
+
+.imgDiv {
+
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.contactInfo {
+
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    text-align: left;
+    padding-left: 3.5vw;
+}
+
+
+.github {
+
+    width: 7vw;
+    height: auto;
+    margin-right: 2vw;
+    margin-top: 1vh;
+}
+
+.linkedin {
+
+    width: 7vw;
+    height: auto;
+    margin-top: 1vh;
+}
+
+.projectHeaders {
+
+    background-color: rgba(253, 0, 0, 0);
+}
+    
+.btnSize {
+
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.construction {
+
+    width: 35vw;
+}
+
+.padding-top {
+
+    padding-top: 4vh;
+}
+
+.imgCollapse {
+
+    width: 70vw;
+    border-radius: 5px;
+}
+
+.repo {
+
+    margin-left: 2vw;
+    margin-right: 50vw;
+    width: 5vw;
+}
+
+.live {
+    
+    width: 10vw;
+}
